@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro Super Hero</title>
+  </head>
+  <body>
+    <div class="Header1">
+      <h1>20% de desconto em todos os produtos!</h1>
+    </div>
+    <div class="Header2">
+      <h1>Nome da Loja</h1>
+      <img src="img/Logo.png" alt="" />
+    </div>
+    <nav class="header3">
+      <ul>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Registra-se</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </nav>
+    <div class="formulario">
+      <form action="" method="post">
+        <fieldset>
+          <legend class="formulario2">Adicionar seu Super Heroi</legend>
+          <p>Adicione seu personagem favorito completando as informações</p>
+          <div class="primeiralinha">
+            <label for="Nome">Nome</label>
+            <input type="text" name="Nome" id="Nome" />
+            <label for="Especie">Selecione a Especie</label>
+            <select type="select" name="Especie" id="Especie">
+              <optgroup label="Selecione a Especie">
+                <option value="Batman">Batman</option>
+                <option value="Mulher Maravilha">Mulher Maravilha</option>
+                <option value="Flash">Flash</option>
+                <option value="SuperMan">SuperMan</option>
+                <option value="Superchoque">Superchoque</option>
+              </optgroup>
+            </select>
+          </div>
+          <label for="Data de Nascimento">Data de Nascimento</label>
+          <input
+            type="date"
+            name="Data de Nascimento"
+            id="Data de Nascimento"
+          />
+          <label for="Adicionar Foto">Adicionar Foto</label>
+          <input type="file" name="Adicionar Foto" id="Adicionar Foto" />
+          <input
+            type="text"
+            placeholder="Adicione uma descrição"
+            name="Adicione uma descrição"
+            id="Adicione uma descrição"
+          />
+          <label for="Poderes">Poderes</label>
+          <input type="checkbox" name="Poderes" id="Poderes" />Voar
+          <input type="checkbox" name="Poderes" id="Poderes" />Velocidade
+          <input type="checkbox" name="Poderes" id="Poderes" />Inteligência
+          <input type="checkbox" name="Poderes" id="Poderes" />Força
+          <input type="checkbox" name="Poderes" id="Poderes" />Choque
+        </fieldset>
+      </form>
+    </div>
+
+    <footer class="footer">
+      <h1>Todos os direitos reservados a Front End 1</h1>
+    </footer>
+  </body>
+</html>
